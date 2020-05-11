@@ -14,6 +14,7 @@ class Cards extends Component {
       <div>
         <Container>
           <h2>Facials</h2>
+          <hr className="hr-h2" />
           <p className="head-p">
             Facials include cleanse skin consultation, exfoliation and
             extractions as needed corrective mask with plenty of relaxing
@@ -41,7 +42,7 @@ class Cards extends Component {
               </Card.Footer>
             </Card>
             <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img variant="top" src="assets/img/express-facial.png" />
               <Card.Body>
                 <Card.Title>Express Facial</Card.Title>
                 <Card.Text>
@@ -57,7 +58,7 @@ class Cards extends Component {
               </Card.Footer>
             </Card>
             <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img variant="top" src="assets/img/acne.png" />
               <Card.Body>
                 <Card.Title>Clear Future Acne Facial</Card.Title>
                 <Card.Text>
@@ -79,7 +80,7 @@ class Cards extends Component {
         <Container>
           <CardDeck>
             <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img variant="top" src="assets/img/radiance.png" />
               <Card.Body>
                 <Card.Title>Radiance Rehab Facial</Card.Title>
                 <Card.Text>
@@ -188,6 +189,7 @@ class Cards extends Component {
         <Container>
           <hr className="hr-style" />
           <h2>Treatments</h2>
+          <hr className="hr-h2" />
           <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/celluma-light.png" />
@@ -299,6 +301,7 @@ class Cards extends Component {
         <Container>
           <hr className="hr-style" />
           <h2>Chemical Peels</h2>
+          <hr className="hr-h2" />
           <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/sensi-peel.png" />
