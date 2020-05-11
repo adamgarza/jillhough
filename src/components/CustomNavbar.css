@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #58595b;
+  padding-left: 4em;
+  padding-right: 4em;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar::before,
+.navbar::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.brand {
+  display: flex !important;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.inactive {
+  color: #fff;
+  text-decoration: none;
+}
