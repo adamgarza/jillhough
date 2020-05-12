@@ -1,0 +1,53 @@
+.footer-top {
+  background-color: #007892;
+  color: #fff;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: left;
+}
+
+.footer-bottom {
+  background-color: #292c2f;
+  color: #fff;
+  padding-top: 1em;
+  text-align: center;
+}
+
+.footer-bottom a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-bottom a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+h6 {
+  padding-right: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+hr {
+  border-top: 2px solid #fff;
+  box-sizing: content-box;
+  display: inline-block !important;
+  overflow: visible;
+  margin-bottom: 1.5rem !important;
+  margin-top: 0 !important;
+  width: 60px;
+}
