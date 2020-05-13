@@ -333,7 +333,7 @@ class Cards extends Component {
               </Card.Footer>
             </Card>
             <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img variant="top" src="assets/img/rezenerate.png" />
               <Card.Body>
                 <Card.Title>Rezenerate Nanofacial</Card.Title>
                 <Card.Text>

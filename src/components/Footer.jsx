@@ -13,44 +13,52 @@ export default class Footer extends Component {
         expand="lg"
         fluid
       >
-        <Row className="justify-content-md-center footer-top">
-          <Col xs={12} sm={12} md={3} lg={3}>
-            <h6>Jill Hough skincare</h6>
+        <Row className="footer-top">
+          <Col xs={12} sm={12} md={1} lg={1} />
+          <Col xs={12} sm={12} md={2} lg={3}>
+            <h6>Contact</h6>
             <hr />
             <p>
-              Copyright &copy; 2020
+              219-741-8275
               <br />
-              All Rights Reserved
+              jill@jillhough.com
             </p>
           </Col>
-
           <Col xs={12} sm={12} md={1} lg={1} />
-
-          <Col xs={12} sm={12} md={3} lg={3}>
+          <Col xs={12} sm={12} md={2} lg={3}>
             <h6>address</h6>
             <hr />
             <p>
-              xxxx Eagle Ridge Dr
+              Salon Platium
+              <br />
+              1000 Eagle Ridge Dr #C
               <br />
               Schererville, IN 46375
             </p>
           </Col>
-
           <Col xs={12} sm={12} md={1} lg={1} />
-
-          <Col xs={12} sm={12} md={3} lg={3}>
-            <h6>Contact</h6>
+          <Col xs={12} sm={12} md={2} lg={3}>
+            <h6>Hours</h6>
             <hr />
             <p>
-              219-xxx-xxxx
+              Tue. 2pm-8pm
               <br />
-              jill@jillhough.com
+              Wed. 9am-3pm
+              <br />
+              Fri. 9am-4pm
+              <br />
+              Sat. pam-3pm
             </p>
           </Col>
         </Row>
 
         <Row className="footer-bottom">
-          <Col xs={12} sm={12} md={12} lg={12}>
+          <Col xs={12} sm={12} md={6} lg={6}>
+            {" "}
+            <p>Jill Hough Skincare Copyright &copy; 2020 </p>
+          </Col>
+
+          <Col xs={12} sm={12} md={6} lg={6}>
             {" "}
             <p>
               Web Development:{" "}
