@@ -14,7 +14,7 @@ class Cards extends Component {
       <div>
         <Container>
           <h2>Facials</h2>
-          <hr className="hr-h2" />
+          <hr className="hr2" />
           <p className="head-p">
             Facials include cleanse skin consultation, exfoliation and
             extractions as needed corrective mask with plenty of relaxing
@@ -189,7 +189,7 @@ class Cards extends Component {
         <Container>
           <hr className="hr-style" />
           <h2>Treatments</h2>
-          <hr className="hr-h2" />
+          <hr className="hr2" />
           <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/celluma-light.png" />
@@ -301,7 +301,7 @@ class Cards extends Component {
         <Container>
           <hr className="hr-style" />
           <h2>Chemical Peels</h2>
-          <hr className="hr-h2" />
+          <hr className="hr2" />
           <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/sensi-peel.png" />
