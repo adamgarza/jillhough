@@ -23,15 +23,17 @@ export default class Footer extends Component {
               <br />
               jill@jillhough.com
               <br />
-              <Image
-                className="social-icons"
-                fluid
-                width="25"
-                height="25"
-                color="white"
-                src="/assets/img/facebook-6.svg"
-                atl="The Creative Few logo"
-              />
+              <a href="https://www.facebook.com/jill.hough.5" target="_blank">
+                <Image
+                  className="social-icons"
+                  fluid
+                  width="25"
+                  height="25"
+                  color="white"
+                  src="/assets/img/facebook-6.svg"
+                  atl="Facebook logo"
+                />
+              </a>
             </p>
           </Col>
           <Col xs={12} sm={12} md={1} lg={1} />
@@ -39,7 +41,7 @@ export default class Footer extends Component {
             <h6>address</h6>
             <hr />
             <p>
-              Salon Platium
+              Salon Platinum
               <br />
               1000 Eagle Ridge Dr #C
               <br />

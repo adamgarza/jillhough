@@ -29,9 +29,9 @@ export default class CustomNavbar extends Component {
             {/* <Nav.Item>
               <Nav.Link href="/services">Services</Nav.Link>
             </Nav.Item> */}
-            <Nav.Link>Facials</Nav.Link>
-            <Nav.Link>Treatments</Nav.Link>
-            <Nav.Link>Chemical Peels</Nav.Link>
+            <Nav.Link href="/facials">Facials</Nav.Link>
+            <Nav.Link href="/treatments">Treatments</Nav.Link>
+            <Nav.Link href="/peels">Chemical Peels</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>

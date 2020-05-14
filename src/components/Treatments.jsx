@@ -15,7 +15,6 @@ class Treatments extends Component {
         <Container>
           <hr className="hr-style" />
           <h2>Treatments</h2>
-          <hr className="hr2" />
           <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/celluma-light.png" />

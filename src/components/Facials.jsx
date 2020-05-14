@@ -13,15 +13,13 @@ class Facials extends Component {
     return (
       <div>
         <Container>
+          <hr className="hr-style" />
           <h2>Facials</h2>
-          <p>
-            <hr className="hr2" />
-          </p>
           <hr className="hr2" />
           <p className="head-p">
             Facials include cleanse skin consultation, exfoliation and
-            extractions as needed corrective mask with plenty of relaxing
-            massage.
+            extractions
+            <br /> as needed corrective mask with plenty of relaxing massage.
           </p>
           <CardDeck>
             <Card>
