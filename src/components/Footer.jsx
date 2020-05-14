@@ -22,6 +22,16 @@ export default class Footer extends Component {
               219-741-8275
               <br />
               jill@jillhough.com
+              <br />
+              <Image
+                className="social-icons"
+                fluid
+                width="25"
+                height="25"
+                color="white"
+                src="/assets/img/facebook-6.svg"
+                atl="The Creative Few logo"
+              />
             </p>
           </Col>
           <Col xs={12} sm={12} md={1} lg={1} />
