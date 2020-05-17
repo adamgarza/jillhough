@@ -25,9 +25,9 @@ class App extends Component {
           <Navbar />
 
           <Route exact path="/" component={Home} />
-          <Route path="/facials" component={Facials} />
+          {/* <Route path="/facials" component={Facials} />
           <Route path="/treatments" component={Treatments} />
-          <Route path="/peels" component={Peels} />
+          <Route path="/peels" component={Peels} /> */}
           {/*
           <Route path="/facials" component={Facials} />
           <Route path="/safety" component={Safety} />

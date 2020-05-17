@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+// import { HashLink as Link } from "react-router-hash-link";
+// import AnchorLink from "react-anchor-link-smooth-scroll";
+// import { Link, animateScroll as scroll } from "react-scroll";
 import { Image } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -26,14 +29,11 @@ export default class CustomNavbar extends Component {
             <Nav.Item>
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
-            {/* <Nav.Item>
-              <Nav.Link href="/services">Services</Nav.Link>
-            </Nav.Item> */}
-            <Nav.Link href="/facials">Facials</Nav.Link>
-            <Nav.Link href="/treatments">Treatments</Nav.Link>
-            <Nav.Link href="/peels">Chemical Peels</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/#facials">Facials</Nav.Link>
+            <Nav.Link href="/#treatments">Treatments</Nav.Link>
+            <Nav.Link href="/#peels">Chemical Peels</Nav.Link>
+            <Nav.Link href="/#about">About</Nav.Link>
+            <Nav.Link href="/#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
