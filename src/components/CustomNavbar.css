@@ -1,7 +1,7 @@
 .navbar {
   background-color: #58595b;
-  padding-left: 4em;
-  padding-right: 4em;
+  padding-left: 3em;
+  padding-right: 3em;
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
   box-shadow: 0 8px 6px -6px #999;
@@ -26,15 +26,3 @@
   color: #fff;
   text-decoration: none;
 }
-
-/* #facials {
-  scroll-padding-top: 2rem;
-}
-
-#treatments {
-  scroll-padding-top: 2rem;
-}
-
-#peels {
-  scroll-padding-top: 2rem;
-} */
