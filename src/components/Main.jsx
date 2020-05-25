@@ -2,19 +2,10 @@ import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-// import { HashLink as Link } from "react-router-hash-link";
-import Carousel from "react-bootstrap/Carousel";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
-
-// import { Link, animateScroll as scroll } from "react-scroll";
-
 import "./Main.css";
-// import "./Carousel.css";
-// import "./Facials.css";
-// import "./Treatments.css";
-// import "./Peels.css";
 
 export default class Main extends Component {
   render() {
