@@ -20,7 +20,7 @@ export default class Main extends Component {
   render() {
     return (
       <div>
-        <Jumbotron className="jumbotron-img" fluid></Jumbotron>
+        <Jumbotron className="jumbotron-img"></Jumbotron>
 
         <a className="anchor" id="facials" />
         <Container className="facials">
