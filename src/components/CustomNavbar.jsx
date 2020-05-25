@@ -17,7 +17,7 @@ export default class CustomNavbar extends Component {
             <a href="/">
               <Image
                 src="/assets/img/jillhoughlogo.svg"
-                width="275em"
+                // width="275em"
                 className="d-inline-block align-top"
                 alt="Jill Hough logo"
               />

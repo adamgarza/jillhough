@@ -18,7 +18,7 @@ export default class Main extends Component {
 
         <a className="anchor" id="facials" />
         <Container className="facials">
-          <hr className="hr-style" />
+          {/* <hr className="hr-style" /> */}
           <h2>Facials</h2>
           <hr className="hr2" />
           <p className="head-p">
