@@ -6,9 +6,9 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Navbar from "./components/CustomNavbar";
 import Home from "./components/Home";
-import Facials from "./components/Facials";
-import Treatments from "./components/Treatments";
-import Peels from "./components/Peels";
+// import Facials from "./components/Facials";
+// import Treatments from "./components/Treatments";
+// import Peels from "./components/Peels";
 import Footer from "./components/Footer";
 {
   /*

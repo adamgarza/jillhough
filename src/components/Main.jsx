@@ -1,54 +1,28 @@
 import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 // import { HashLink as Link } from "react-router-hash-link";
 import Carousel from "react-bootstrap/Carousel";
+import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
+
 // import { Link, animateScroll as scroll } from "react-scroll";
 
 import "./Main.css";
-import "./Carousel.css";
-import "./Facials.css";
-import "./Treatments.css";
-import "./Peels.css";
+// import "./Carousel.css";
+// import "./Facials.css";
+// import "./Treatments.css";
+// import "./Peels.css";
 
 export default class Main extends Component {
   render() {
     return (
       <div>
-        {/* <Container>
-          <Carousel>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 h-100"
-                src="/assets/img/carousel1.jpg?text=First slide&bg=373940"
-                alt="First slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 h-100"
-                src="/assets/img/carousel2.jpg?text=Second slide&bg=282c34"
-                alt="Third slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 h-100"
-                src="/assets/img/carousel4.jpg?text=First slide&bg=373940"
-                alt="First slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 h-100"
-                src="/assets/img/carousel3.jpg?text=Third slide&bg=20232a"
-                alt="Third slide"
-              />
-            </Carousel.Item>
-          </Carousel>
-        </Container> */}
+        <Jumbotron className="jumbotron-img" fluid></Jumbotron>
 
+        <a className="anchor" id="facials" />
         <Container className="facials">
           <hr className="hr-style" />
           <h2>Facials</h2>
@@ -58,7 +32,7 @@ export default class Main extends Component {
             extractions
             <br /> as needed corrective mask with plenty of relaxing massage.
           </p>
-          <a className="anchor" id="facial" />
+
           <CardDeck>
             <Card>
               <Card.Img variant="top" src="holder.js/100px160" />
@@ -76,10 +50,11 @@ export default class Main extends Component {
               </Card.Body>
               <Card.Footer>
                 <small className="text-muted">
-                  Allow 1 hour &amp; 30 minutes
+                  Online booking coming soon.
                 </small>
               </Card.Footer>
             </Card>
+
             <Card>
               <Card.Img variant="top" src="assets/img/express-facial.png" />
               <Card.Body>
@@ -93,9 +68,12 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">Allow 30 minutes</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
+
             <Card>
               <Card.Img variant="top" src="assets/img/acne.png" />
               <Card.Body>
@@ -110,7 +88,9 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
           </CardDeck>
@@ -132,9 +112,12 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
+
             <Card>
               <Card.Img variant="top" src="holder.js/100px160" />
               <Card.Body>
@@ -149,9 +132,12 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
+
             <Card>
               <Card.Img variant="top" src="holder.js/100px160" />
               <Card.Body>
@@ -166,7 +152,9 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
           </CardDeck>
@@ -187,9 +175,12 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
+
             <Card>
               <Card.Img variant="top" src="assets/img/gentlemans-facial.png" />
               <Card.Body>
@@ -203,24 +194,19 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
+
             <Card className="invisible">
-              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img variant="top" />
               <Card.Body>
-                <Card.Title>Gentleman's Facial</Card.Title>
-                <Card.Text>
-                  <p>
-                    A customized treatment includes deep pore cleansing, hot
-                    towels, exfoliation &amp; a Smoked Bourbon Mask.
-                  </p>
-                  <p>$55</p>
-                </Card.Text>
+                <Card.Title></Card.Title>
+                <Card.Text></Card.Text>
               </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">??</small>
-              </Card.Footer>
+              <Card.Footer></Card.Footer>
             </Card>
           </CardDeck>
         </Container>
@@ -247,9 +233,12 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
+
             <Card>
               <Card.Img variant="top" src="assets/img/microcurrent.png" />
               <Card.Body>
@@ -264,9 +253,12 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
+
             <Card>
               <Card.Img variant="top" src="assets/img/microdermabrasion.png" />
               <Card.Body>
@@ -281,7 +273,9 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
           </CardDeck>
@@ -302,40 +296,40 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
-            <Card className="invisible">
-              <Card.Img variant="top" src="assets/img/dermaplaning.png" />
+
+            <Card>
+              <Card.Img variant="top" src="assets/img/red-leds.png" />
               <Card.Body>
-                <Card.Title>Dermaplaning</Card.Title>
+                <Card.Title>Lightwave LED Topical Light Infusion</Card.Title>
                 <Card.Text>
                   <p>
-                    The removal of vellus hair and exfoliation of the skin.
-                    Hydrating mask included.
+                    Topical treatment is optimized to Target a unique skin
+                    concern. This non invasive treatment can improve the
+                    appearance of wrinkles, sun damage , burns , acne scars ,
+                    oily skin and loose in elastic skin.
                   </p>
-                  <p>$65</p>
+                  <p>$125</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
+
             <Card className="invisible">
-              <Card.Img variant="top" src="assets/img/dermaplaning.png" />
+              <Card.Img variant="top" />
               <Card.Body>
-                <Card.Title>Dermaplaning</Card.Title>
-                <Card.Text>
-                  <p>
-                    The removal of vellus hair and exfoliation of the skin.
-                    Hydrating mask included.
-                  </p>
-                  <p>$65</p>
-                </Card.Text>
+                <Card.Title></Card.Title>
+                <Card.Text></Card.Text>
               </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">??</small>
-              </Card.Footer>
+              <Card.Footer></Card.Footer>
             </Card>
           </CardDeck>
         </Container>
@@ -359,9 +353,12 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
+
             <Card>
               <Card.Img variant="top" src="assets/img/lactic-acid-peel.png" />
               <Card.Body>
@@ -372,9 +369,12 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
+
             <Card>
               <Card.Img variant="top" src="assets/img/rezenerate.png" />
               <Card.Body>
@@ -385,10 +385,23 @@ export default class Main extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">??</small>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
               </Card.Footer>
             </Card>
           </CardDeck>
+          <br />
+          <br />
+
+          <Card>
+            <Card.Footer>
+              <p className="head-p">
+                <br />
+                Promotional Offer: Chemical Peel series of 3 for $190
+              </p>
+            </Card.Footer>
+          </Card>
         </Container>
       </div>
     );
