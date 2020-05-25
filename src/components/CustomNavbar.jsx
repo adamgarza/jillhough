@@ -2,7 +2,8 @@ import React, { Component } from "react";
 // import { HashLink as Link } from "react-router-hash-link";
 // import AnchorLink from "react-anchor-link-smooth-scroll";
 // import { Link, animateScroll as scroll } from "react-scroll";
-import { Image } from "react-bootstrap";
+import { Image, Container } from "react-bootstrap";
+
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "./CustomNavbar.css";
