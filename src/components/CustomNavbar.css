@@ -21,6 +21,11 @@
   text-transform: uppercase;
   letter-spacing: 2px; */
 }
+
+.navbar-brand {
+  margin-right: 0;
+}
+
 .justify-content-end {
   align-items: right;
 }
