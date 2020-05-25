@@ -21,6 +21,9 @@
   text-transform: uppercase;
   letter-spacing: 2px; */
 }
+.justify-content-end {
+  align-items: right;
+}
 
 .inactive {
   color: #fff;
