@@ -19,7 +19,7 @@ import "./Main.css";
 export default class Main extends Component {
   render() {
     return (
-      <div>
+      <div fluid>
         <Jumbotron className="jumbotron-img"></Jumbotron>
 
         <a className="anchor" id="facials" />
