@@ -41,6 +41,14 @@ h6 {
   width: 100%;
 }
 
+.about-p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-bottom: 2em;
+  text-align: justify;
+  width: 100%;
+}
+
 hr.hr-style {
   border-top: 0.5px solid #58595b;
   opacity: 0.15;
@@ -83,14 +91,30 @@ p {
   visibility: hidden;
 }
 
-.facials {
-  scroll-padding: 100px 0 0 0;
+#facials {
+  /* padding-top: 150px;
+  margin-top: -150px; */
+  scroll-padding: -75px 0 0 0;
+  scroll-margin: 75px 0 0 0;
 }
 
-.treatments {
-  scroll-padding: 100px 0 0 0;
+#treatments {
+  /* padding-top: 150px;
+  margin-top: -150px; */
+  scroll-padding: -75px 0 0 0;
+  scroll-margin: 75px 0 0 0;
 }
 
-.peels {
-  scroll-padding: 100px 0 0 0;
+#peels {
+  /* padding-top: 150px;
+  margin-top: -150px; */
+  scroll-padding: -75px 0 0 0;
+  scroll-margin: 75px 0 0 0;
+}
+
+#about {
+  /* padding-top: 150px;
+  margin-top: -150px; */
+  scroll-padding: -75px 0 0 0;
+  scroll-margin: 75px 0 0 0;
 }

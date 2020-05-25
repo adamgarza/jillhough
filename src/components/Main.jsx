@@ -403,6 +403,30 @@ export default class Main extends Component {
             </Card.Footer>
           </Card>
         </Container>
+
+        <a className="anchor" id="about" />
+        <Container className="about">
+          <hr className="hr-style" />
+          <h2>About</h2>
+          <hr className="hr2" />
+
+          <p className="about-p">
+            Jill Hough - Esthetician, has 21 years of experience in the skincare
+            industry. Always making her clients feel beautiful on the outside
+            just as they are on the inside. Jill is a graduate of Don Roberts
+            school and recent graduate of True U education advanced Esthetics
+            training in Chicago, Illinois. She specializes in corrective facials
+            and anti-aging treatments such as Microdermabrasion, Microcurrent,
+            red light therapy and resurfacing peels.
+          </p>
+          <p className="about-p">
+            For those clients with acne, sensitive and even health challenged
+            skin, Jill has a treatment and skincare line just for you called
+            Hale and Hush paraban free, sulfate free, gluten free and no
+            artificial fragrances. Jill Hough Skincare offers a Senior and
+            teenage discount of 15% off.
+          </p>
+        </Container>
       </div>
     );
   }
