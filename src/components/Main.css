@@ -55,6 +55,10 @@ h6 {
   width: 100%;
 }
 
+.about-p a {
+  text-decoration: none;
+}
+
 hr.hr-style {
   border-top: 0.5px solid #58595b;
   opacity: 0.15;
@@ -102,6 +106,7 @@ p {
 #treatments,
 #peels,
 #about,
+#products,
 #contact {
   scroll-padding: -75px 0 0 0;
   scroll-margin: 75px 0 0 0;

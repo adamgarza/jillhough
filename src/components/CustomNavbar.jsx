@@ -33,6 +33,7 @@ export default class CustomNavbar extends Component {
             <Nav.Link href="/#facials">Facials</Nav.Link>
             <Nav.Link href="/#treatments">Treatments</Nav.Link>
             <Nav.Link href="/#peels">Chemical Peels</Nav.Link>
+            <Nav.Link href="/#products">Products</Nav.Link>
             <Nav.Link href="/#about">About</Nav.Link>
             <Nav.Link href="/#contact">Contact</Nav.Link>
           </Nav>

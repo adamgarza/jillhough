@@ -3,22 +3,38 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
+import ModalDialog from "react-bootstrap/ModalDialog";
+import ModalHeader from "react-bootstrap/ModalHeader";
+import ModalTitle from "react-bootstrap/ModalTitle";
+import ModalBody from "react-bootstrap/ModalBody";
 import "./Main.css";
 
 export default class Main extends Component {
   render() {
     return (
       <div>
-        <Image className="banner-img" src="/assets/img/carousel3.jpg" />
+        <Modal.Dialog>
+          <Modal.Header closeButton>
+            <Modal.Title>COVID-19 Alert</Modal.Title>
+          </Modal.Header>
 
-        {/* <Jumbotron className="jumbotron-img"></Jumbotron> */}
+          <Modal.Body>
+            <p>Jill Hough Skincare is Barbicide COVID-19 Certified.</p>
+          </Modal.Body>
+
+          <Modal.Footer>
+            <Button variant="secondary">Close</Button>
+          </Modal.Footer>
+        </Modal.Dialog>
+
+        <Image className="banner-img" src="/assets/img/carousel3.jpg" />
 
         <a className="anchor" id="facials" />
         <Container className="facials">
-          {/* <hr className="hr-style" /> */}
           <h2>Facials</h2>
           <hr className="hr2" />
           <p className="head-p">
@@ -398,12 +414,22 @@ export default class Main extends Component {
           </Card>
         </Container>
 
+        <a className="anchor" id="products" />
+        <Container className="products">
+          <Row>
+            <Col>
+              <hr className="hr-style" />
+              <h2>Products</h2>
+              <hr className="hr2" />
+            </Col>
+          </Row>
+        </Container>
+
         <a className="anchor" id="about" />
         <Container className="about">
           <hr className="hr-style" />
           <h2>About</h2>
           <hr className="hr2" />
-
           <p className="about-p">
             Jill Hough - Esthetician, has 21 years of experience in the skincare
             industry. Always making her clients feel beautiful on the outside
@@ -419,6 +445,11 @@ export default class Main extends Component {
             Hale and Hush paraban free, sulfate free, gluten free and no
             artificial fragrances. Jill Hough Skincare offers a Senior and
             teenage discount of 15% off.
+          </p>
+          <p className="about-p">
+            <a href="assets/img/Certificate.pdf">
+              Barbicide COVID-19 Certificate
+            </a>
           </p>
         </Container>
 
