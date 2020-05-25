@@ -427,6 +427,47 @@ export default class Main extends Component {
             teenage discount of 15% off.
           </p>
         </Container>
+
+        <a className="anchor" id="contact" />
+        <Container className="contact-us">
+          <hr className="hr-style" />
+          <h2>Contact</h2>
+          <hr className="hr2" />
+
+          <form name="contact" method="post">
+            <input type="hidden" name="form-name" value="contact" />
+            <div className="form-row">
+              <div className="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <label className="label-contact">Name:</label>
+                <input
+                  type="text"
+                  name="name"
+                  className="form-control"
+                  placeholder="first + last"
+                />
+              </div>
+
+              <div className="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <label className="label-contact">Email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  className="form-control"
+                  placeholder="name@example.com"
+                />
+              </div>
+            </div>
+            <div className="form-row">
+              <div className="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <label className="label-contact">Message:</label>
+                <textarea name="message" rows="4" className="form-control" />
+                <button type="submit" className="btn contact-btn">
+                  Send
+                </button>
+              </div>
+            </div>
+          </form>
+        </Container>
       </div>
     );
   }
