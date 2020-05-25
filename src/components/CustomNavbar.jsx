@@ -11,7 +11,7 @@ import "./CustomNavbar.css";
 export default class CustomNavbar extends Component {
   render() {
     return (
-      <Navbar sticky="top" variant="dark" expand="lg" default collapseOnSelect>
+      <Navbar sticky="top" variant="dark" expand="sm" default collapseOnSelect>
         <Navbar.Brand href="/" className="brand">
           <span class="logo">
             <a href="/">
