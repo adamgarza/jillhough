@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
@@ -10,8 +11,10 @@ import "./Main.css";
 export default class Main extends Component {
   render() {
     return (
-      <div fluid>
-        <Jumbotron className="jumbotron-img"></Jumbotron>
+      <div>
+        <Image className="banner-img" src="/assets/img/carousel3.jpg" />
+
+        {/* <Jumbotron className="jumbotron-img"></Jumbotron> */}
 
         <a className="anchor" id="facials" />
         <Container className="facials">
