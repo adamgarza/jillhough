@@ -5,32 +5,21 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
-import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+
 import ModalDialog from "react-bootstrap/ModalDialog";
 import ModalHeader from "react-bootstrap/ModalHeader";
 import ModalTitle from "react-bootstrap/ModalTitle";
 import ModalBody from "react-bootstrap/ModalBody";
+import ModalFooter from "react-bootstrap/ModalFooter";
+
 import "./Main.css";
 
 export default class Main extends Component {
   render() {
     return (
       <div>
-        <Modal.Dialog>
-          <Modal.Header closeButton>
-            <Modal.Title>COVID-19 Alert</Modal.Title>
-          </Modal.Header>
-
-          <Modal.Body>
-            <p>Jill Hough Skincare is Barbicide COVID-19 Certified.</p>
-          </Modal.Body>
-
-          <Modal.Footer>
-            <Button variant="secondary">Close</Button>
-          </Modal.Footer>
-        </Modal.Dialog>
-
         <Image className="banner-img" src="/assets/img/carousel3.jpg" />
 
         <a className="anchor" id="facials" />
