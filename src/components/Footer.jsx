@@ -21,7 +21,7 @@ export default class Footer extends Component {
             <p>
               219-741-8275
               <br />
-              jill@jillhough.com
+              jill@jillhoughskincare.com
               <br />
               <a href="https://www.facebook.com/jill.hough.5" target="_blank">
                 <Image
