@@ -5,14 +5,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
-
-import ModalDialog from "react-bootstrap/ModalDialog";
-import ModalHeader from "react-bootstrap/ModalHeader";
-import ModalTitle from "react-bootstrap/ModalTitle";
-import ModalBody from "react-bootstrap/ModalBody";
-import ModalFooter from "react-bootstrap/ModalFooter";
+import Alert from "react-bootstrap/Alert";
 
 import "./Main.css";
 
@@ -20,8 +13,19 @@ export default class Main extends Component {
   render() {
     return (
       <div>
-        <Image className="banner-img" src="/assets/img/carousel3.jpg" />
+        <Alert variant="danger">
+          <Alert.Heading>COVID-19 Alert</Alert.Heading>
+          <hr />
+          <p className="mb-0">
+            Jill Hough Skincare is{" "}
+            <Alert.Link href="assets/img/Certificate.pdf">
+              Barbicide COVID-19 Certified
+            </Alert.Link>
+            .
+          </p>
+        </Alert>
 
+        <Image className="banner-img" src="/assets/img/carousel3.jpg" />
         <a className="anchor" id="facials" />
         <Container className="facials">
           <h2>Facials</h2>
@@ -94,7 +98,6 @@ export default class Main extends Component {
             </Card>
           </CardDeck>
         </Container>
-
         <Container>
           <CardDeck>
             <Card>
@@ -158,7 +161,6 @@ export default class Main extends Component {
             </Card>
           </CardDeck>
         </Container>
-
         <Container>
           <CardDeck>
             <Card>
@@ -209,7 +211,6 @@ export default class Main extends Component {
             </Card>
           </CardDeck>
         </Container>
-
         <a className="anchor" id="treatments" />
         <Container className="treatments">
           <hr className="hr-style" />
@@ -279,7 +280,6 @@ export default class Main extends Component {
             </Card>
           </CardDeck>
         </Container>
-
         <Container>
           <CardDeck>
             <Card>
@@ -332,7 +332,6 @@ export default class Main extends Component {
             </Card>
           </CardDeck>
         </Container>
-
         <a className="anchor" id="peels" />
         <Container>
           <hr className="hr-style" />
@@ -402,7 +401,6 @@ export default class Main extends Component {
             </Card.Footer>
           </Card>
         </Container>
-
         <a className="anchor" id="products" />
         <Container className="products">
           <Row>
@@ -413,7 +411,6 @@ export default class Main extends Component {
             </Col>
           </Row>
         </Container>
-
         <a className="anchor" id="about" />
         <Container className="about">
           <hr className="hr-style" />
@@ -435,13 +432,12 @@ export default class Main extends Component {
             artificial fragrances. Jill Hough Skincare offers a Senior and
             teenage discount of 15% off.
           </p>
-          <p className="about-p">
+          {/* <p className="about-p">
             <a href="assets/img/Certificate.pdf">
               Barbicide COVID-19 Certificate
             </a>
-          </p>
+          </p> */}
         </Container>
-
         <a className="anchor" id="contact" />
         <Container className="contact-us">
           <hr className="hr-style" />
