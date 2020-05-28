@@ -211,6 +211,7 @@ export default class Main extends Component {
             </Card>
           </CardDeck>
         </Container>
+
         <a className="anchor" id="treatments" />
         <Container className="treatments">
           <hr className="hr-style" />
@@ -279,8 +280,8 @@ export default class Main extends Component {
               </Card.Footer>
             </Card>
           </CardDeck>
-        </Container>
-        <Container>
+          {/* </Container>
+        <Container> */}
           <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/dermaplaning.png" />
@@ -332,6 +333,7 @@ export default class Main extends Component {
             </Card>
           </CardDeck>
         </Container>
+
         <a className="anchor" id="peels" />
         <Container>
           <hr className="hr-style" />
@@ -401,6 +403,7 @@ export default class Main extends Component {
             </Card.Footer>
           </Card>
         </Container>
+
         <a className="anchor" id="products" />
         <Container className="products">
           <Row>
