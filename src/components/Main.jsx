@@ -97,8 +97,8 @@ export default class Main extends Component {
               </Card.Footer>
             </Card>
           </CardDeck>
-        </Container>
-        <Container>
+          {/* </Container>
+        <Container> */}
           <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/radiance.png" />
@@ -160,8 +160,8 @@ export default class Main extends Component {
               </Card.Footer>
             </Card>
           </CardDeck>
-        </Container>
-        <Container>
+          {/* </Container>
+        <Container> */}
           <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/teen-facial.png" />
