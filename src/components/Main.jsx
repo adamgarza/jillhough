@@ -38,7 +38,7 @@ export default class Main extends Component {
 
           <CardDeck>
             <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img variant="top" src="/assets/img/signature-facial.png" />
               <Card.Body>
                 <Card.Title>Jill's Signature Collagen Facial</Card.Title>
                 <Card.Text>
@@ -99,6 +99,7 @@ export default class Main extends Component {
           </CardDeck>
           {/* </Container>
         <Container> */}
+          <br />
           <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/radiance.png" />
@@ -162,6 +163,7 @@ export default class Main extends Component {
           </CardDeck>
           {/* </Container>
         <Container> */}
+          <br />
           <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/teen-facial.png" />
@@ -282,6 +284,7 @@ export default class Main extends Component {
           </CardDeck>
           {/* </Container>
         <Container> */}
+          <br />
           <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/dermaplaning.png" />
