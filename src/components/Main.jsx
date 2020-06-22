@@ -122,7 +122,11 @@ export default class Main extends Component {
             </Card>
 
             <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img
+                variant="top"
+                src="assets/img/beedazzle-facial.jpg"
+                alt="Bee Dazzle Facial"
+              />
               <Card.Body>
                 <Card.Title>Bee Dazzle Facial</Card.Title>
                 <Card.Text>
@@ -142,7 +146,11 @@ export default class Main extends Component {
             </Card>
 
             <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img
+                variant="top"
+                src="assets/img/hydro-facial.jpg"
+                alt="Hydrodermabrasion Facial image"
+              />
               <Card.Body>
                 <Card.Title>Hydrodermabrasion Facial</Card.Title>
                 <Card.Text>
