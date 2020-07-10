@@ -424,29 +424,31 @@ export default class Main extends Component {
               <hr className="hr2" />
             </Col>
           </Row>
+
           <Row>
-            <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+            <Col xs={12} md={12} lg={6} xl={6} className="prodImage">
               <Image
                 src="assets/img/SS_Moisturizers.jpg"
                 alt="Skin Script Moisturizers"
               />
             </Col>
-            <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+            <Col xs={12} md={6} lg={6} xl={6} className="prodImage">
               <Image
                 src="assets/img/SS_Cleansers.jpg"
                 alt="Skin Script Cleansers"
               />
             </Col>
           </Row>
+
           <br />
           <Row>
-            <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+            <Col xs={12} md={6} lg={6} xl={6} className="prodImage">
               <Image
                 src="assets/img/SS_Exfoliants.jpg"
                 alt="Skin Script Exfoliants"
               />
             </Col>
-            <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+            <Col xs={12} md={6} lg={6} xl={6} className="prodImage">
               <Image
                 src="assets/img/HH_Products_2020.jpg"
                 alt="Hale &amp; Hush Products 2020"
@@ -454,6 +456,7 @@ export default class Main extends Component {
             </Col>
           </Row>
         </Container>
+
         <a className="anchor" id="about" />
         <Container className="about">
           <hr className="hr-style" />

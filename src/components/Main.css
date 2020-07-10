@@ -153,3 +153,11 @@ p {
   border-radius: 50%;
   float: left;
 }
+
+.prodImage {
+  height: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  text-align: center;
+}
