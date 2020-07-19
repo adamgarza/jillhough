@@ -6,6 +6,7 @@ import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
 import Alert from "react-bootstrap/Alert";
+import Button from "react-bootstrap/Button";
 
 import "./Main.css";
 
@@ -24,7 +25,6 @@ export default class Main extends Component {
             .
           </p>
         </Alert>
-
         <Image className="banner-img" src="/assets/img/carousel3.jpg" />
         <a className="anchor" id="facials" />
         <Container className="facials">
@@ -344,7 +344,6 @@ export default class Main extends Component {
             </Card>
           </CardDeck>
         </Container>
-
         <a className="anchor" id="peels" />
         <Container>
           <hr className="hr-style" />
@@ -414,7 +413,6 @@ export default class Main extends Component {
             </Card.Footer>
           </Card>
         </Container>
-
         <a className="anchor" id="products" />
         <Container className="products">
           <Row>
@@ -456,7 +454,6 @@ export default class Main extends Component {
             </Col>
           </Row>
         </Container>
-
         <a className="anchor" id="about" />
         <Container className="about">
           <hr className="hr-style" />
