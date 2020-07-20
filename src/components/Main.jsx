@@ -48,7 +48,10 @@ export default class Main extends Component {
                     &amp; eye treatment.
                   </p>
 
-                  <p>$95</p>
+                  <p>
+                    <br />
+                    $95
+                  </p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -67,7 +70,12 @@ export default class Main extends Component {
                     This highly personalized treatment will cleanse, exfoliate
                     &amp; revitalize your skin in just 30 minutes.
                   </p>
-                  <p>$45</p>
+                  <p>
+                    {" "}
+                    <br />
+                    <br />
+                    $45
+                  </p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -87,7 +95,10 @@ export default class Main extends Component {
                     shrink enlarged pores while maintaining balance and comfort
                     with probiotics.
                   </p>
-                  <p>$75</p>
+                  <p>
+                    <br />
+                    $75
+                  </p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -111,7 +122,11 @@ export default class Main extends Component {
                     wrinkles, redness ans inflammation. Featuring vitamins A
                     &amp; C.
                   </p>
-                  <p>$75</p>
+                  <p>
+                    <br />
+                    <br />
+                    $75
+                  </p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -159,7 +174,10 @@ export default class Main extends Component {
                     the skin. This facial uses water &amp; oxygen to
                     effortlessly exfoliate dead skin, while adding hydration.
                   </p>
-                  <p>$85</p>
+                  <p>
+                    <br />
+                    $85
+                  </p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -260,7 +278,11 @@ export default class Main extends Component {
                     painless facial lifrts &amp; firms to help erase fine lines
                     and wrinkles while increasing cellular activity.
                   </p>
-                  <p>$75</p>
+                  <p>
+                    <br />
+                    <br />
+                    $75
+                  </p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -280,7 +302,11 @@ export default class Main extends Component {
                     tone &amp; texture. It can improve the appearance of sun
                     damage, fine lines and wrinkles.
                   </p>
-                  <p>$65</p>
+                  <p>
+                    <br />
+                    <br />
+                    $65
+                  </p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -303,7 +329,13 @@ export default class Main extends Component {
                     The removal of vellus hair and exfoliation of the skin.
                     Hydrating mask included.
                   </p>
-                  <p>$65</p>
+                  <p>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    $65
+                  </p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -359,7 +391,11 @@ export default class Main extends Component {
                     This gentle peel will improve surface texture &amp; brighten
                     the skin. Includes take home after peel care serum.
                   </p>
-                  <p>$85</p>
+                  <p>
+                    <br />
+                    <br />
+                    $85
+                  </p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -375,7 +411,12 @@ export default class Main extends Component {
                 <Card.Title>20% Lactic Peel</Card.Title>
                 <Card.Text>
                   <p>For extreme lightening due to sundamaged skin</p>
-                  <p>$85</p>
+                  <p>
+                    <br />
+                    <br />
+                    <br />
+                    $85
+                  </p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
