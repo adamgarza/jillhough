@@ -390,8 +390,12 @@ export default class Main extends Component {
               <Card.Body>
                 <Card.Title>Rezenerate Nanofacial</Card.Title>
                 <Card.Text>
-                  <p>??</p>
-                  <p>$??</p>
+                  <p>
+                    A facial treatment that can refresh, restore, and renew your
+                    skin using Nanotechnology, to be deeply penetrated to the
+                    dermal layer where collagen stimulation happens.
+                  </p>
+                  <p>$95</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
