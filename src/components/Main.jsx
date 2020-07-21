@@ -187,8 +187,7 @@ export default class Main extends Component {
               </Card.Footer>
             </Card>
           </CardDeck>
-          {/* </Container>
-        <Container> */}
+
           <br />
           <CardDeck>
             <Card>
@@ -316,8 +315,7 @@ export default class Main extends Component {
               </Card.Footer>
             </Card>
           </CardDeck>
-          {/* </Container>
-        <Container> */}
+
           <br />
           <CardDeck>
             <Card>
