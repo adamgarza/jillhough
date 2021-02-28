@@ -74,7 +74,7 @@ export default class Main extends Component {
                     {" "}
                     <br />
                     <br />
-                    $45
+                    $55
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -125,7 +125,7 @@ export default class Main extends Component {
                   <p>
                     <br />
                     <br />
-                    $75
+                    $85
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -150,7 +150,7 @@ export default class Main extends Component {
                     downtime. Alpha hydroxy acid recondition skin texture &amp;
                     complexion. Finished with a Manuka honey mask.
                   </p>
-                  <p>$75</p>
+                  <p>$85</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -199,7 +199,7 @@ export default class Main extends Component {
                     Includes a deep cleanse, extractions, acne enzyme mask and
                     blue light therapy. Skin care lesson included.
                   </p>
-                  <p>$45</p>
+                  <p>$55</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -247,27 +247,6 @@ export default class Main extends Component {
 
           <CardDeck>
             <Card>
-              <Card.Img variant="top" src="assets/img/celluma-light.png" />
-              <Card.Body>
-                <Card.Title>Celluma Light Therapy</Card.Title>
-                <Card.Text>
-                  <p>
-                    Phototherapy can increase circulation, accelerate tissue
-                    repair, increase collagen production, kill acne bacteria,
-                    decrease inflammation &amp; improve texture &amp; skin
-                    clarity. * Series of 10 treatments recommended
-                  </p>
-                  <p>$55</p>
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">
-                  Online booking coming soon.
-                </small>
-              </Card.Footer>
-            </Card>
-
-            <Card>
               <Card.Img variant="top" src="assets/img/microcurrent.png" />
               <Card.Body>
                 <Card.Title>Microcurrent</Card.Title>
@@ -280,7 +259,7 @@ export default class Main extends Component {
                   <p>
                     <br />
                     <br />
-                    $75
+                    $85
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -304,7 +283,7 @@ export default class Main extends Component {
                   <p>
                     <br />
                     <br />
-                    $65
+                    $85
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -314,10 +293,7 @@ export default class Main extends Component {
                 </small>
               </Card.Footer>
             </Card>
-          </CardDeck>
 
-          <br />
-          <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/dermaplaning.png" />
               <Card.Body>
@@ -332,7 +308,7 @@ export default class Main extends Component {
                     <br />
                     <br />
                     <br />
-                    $65
+                    $75
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -342,7 +318,10 @@ export default class Main extends Component {
                 </small>
               </Card.Footer>
             </Card>
+          </CardDeck>
 
+          <br />
+          <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/red-leds.png" />
               <Card.Body>
@@ -354,7 +333,7 @@ export default class Main extends Component {
                     appearance of wrinkles, sun damage , burns , acne scars ,
                     oily skin and loose in elastic skin.
                   </p>
-                  <p>$125</p>
+                  <p>$85 - $125</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -362,6 +341,15 @@ export default class Main extends Component {
                   Online booking coming soon.
                 </small>
               </Card.Footer>
+            </Card>
+
+            <Card className="invisible">
+              <Card.Img variant="top" />
+              <Card.Body>
+                <Card.Title></Card.Title>
+                <Card.Text></Card.Text>
+              </Card.Body>
+              <Card.Footer></Card.Footer>
             </Card>
 
             <Card className="invisible">
@@ -392,7 +380,7 @@ export default class Main extends Component {
                   <p>
                     <br />
                     <br />
-                    $85
+                    $95
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -434,7 +422,7 @@ export default class Main extends Component {
                     skin using Nanotechnology, to be deeply penetrated to the
                     dermal layer where collagen stimulation happens.
                   </p>
-                  <p>$95</p>
+                  <p>$100</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
