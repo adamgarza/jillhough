@@ -247,27 +247,6 @@ export default class Main extends Component {
 
           <CardDeck>
             <Card>
-              <Card.Img variant="top" src="assets/img/celluma-light.png" />
-              <Card.Body>
-                <Card.Title>Celluma Light Therapy</Card.Title>
-                <Card.Text>
-                  <p>
-                    Phototherapy can increase circulation, accelerate tissue
-                    repair, increase collagen production, kill acne bacteria,
-                    decrease inflammation &amp; improve texture &amp; skin
-                    clarity. * Series of 10 treatments recommended
-                  </p>
-                  <p>$55</p>
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">
-                  Online booking coming soon.
-                </small>
-              </Card.Footer>
-            </Card>
-
-            <Card>
               <Card.Img variant="top" src="assets/img/microcurrent.png" />
               <Card.Body>
                 <Card.Title>Microcurrent</Card.Title>
@@ -314,10 +293,7 @@ export default class Main extends Component {
                 </small>
               </Card.Footer>
             </Card>
-          </CardDeck>
 
-          <br />
-          <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/dermaplaning.png" />
               <Card.Body>
@@ -342,7 +318,10 @@ export default class Main extends Component {
                 </small>
               </Card.Footer>
             </Card>
+          </CardDeck>
 
+          <br />
+          <CardDeck>
             <Card>
               <Card.Img variant="top" src="assets/img/red-leds.png" />
               <Card.Body>
@@ -362,6 +341,15 @@ export default class Main extends Component {
                   Online booking coming soon.
                 </small>
               </Card.Footer>
+            </Card>
+
+            <Card className="invisible">
+              <Card.Img variant="top" />
+              <Card.Body>
+                <Card.Title></Card.Title>
+                <Card.Text></Card.Text>
+              </Card.Body>
+              <Card.Footer></Card.Footer>
             </Card>
 
             <Card className="invisible">
