@@ -74,7 +74,7 @@ export default class Main extends Component {
                     {" "}
                     <br />
                     <br />
-                    $45
+                    $55
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -125,7 +125,7 @@ export default class Main extends Component {
                   <p>
                     <br />
                     <br />
-                    $75
+                    $85
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -150,7 +150,7 @@ export default class Main extends Component {
                     downtime. Alpha hydroxy acid recondition skin texture &amp;
                     complexion. Finished with a Manuka honey mask.
                   </p>
-                  <p>$75</p>
+                  <p>$85</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -199,7 +199,7 @@ export default class Main extends Component {
                     Includes a deep cleanse, extractions, acne enzyme mask and
                     blue light therapy. Skin care lesson included.
                   </p>
-                  <p>$45</p>
+                  <p>$55</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -280,7 +280,7 @@ export default class Main extends Component {
                   <p>
                     <br />
                     <br />
-                    $75
+                    $85
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -304,7 +304,7 @@ export default class Main extends Component {
                   <p>
                     <br />
                     <br />
-                    $65
+                    $85
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -332,7 +332,7 @@ export default class Main extends Component {
                     <br />
                     <br />
                     <br />
-                    $65
+                    $75
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -354,7 +354,7 @@ export default class Main extends Component {
                     appearance of wrinkles, sun damage , burns , acne scars ,
                     oily skin and loose in elastic skin.
                   </p>
-                  <p>$125</p>
+                  <p>$85 - $125</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -392,7 +392,7 @@ export default class Main extends Component {
                   <p>
                     <br />
                     <br />
-                    $85
+                    $95
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -434,7 +434,7 @@ export default class Main extends Component {
                     skin using Nanotechnology, to be deeply penetrated to the
                     dermal layer where collagen stimulation happens.
                   </p>
-                  <p>$95</p>
+                  <p>$100</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
