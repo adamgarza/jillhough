@@ -218,7 +218,7 @@ export default class Main extends Component {
                     A customized treatment includes deep pore cleansing, hot
                     towels, exfoliation &amp; a Smoked Bourbon Mask.
                   </p>
-                  <p>$55</p>
+                  <p>$85</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -401,7 +401,7 @@ export default class Main extends Component {
                     <br />
                     <br />
                     <br />
-                    $85
+                    $95
                   </p>
                 </Card.Text>
               </Card.Body>
