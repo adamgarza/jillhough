@@ -218,7 +218,7 @@ export default class Main extends Component {
                     A customized treatment includes deep pore cleansing, hot
                     towels, exfoliation &amp; a Smoked Bourbon Mask.
                   </p>
-                  <p>$55</p>
+                  <p>$85</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -254,7 +254,9 @@ export default class Main extends Component {
                   <p>
                     Often referred to as a natural face lift. This safe &amp;
                     painless facial lifrts &amp; firms to help erase fine lines
-                    and wrinkles while increasing cellular activity.
+                    and wrinkles while increasing cellular activity. Includes
+                    enzyme peel &amp; corrective mask. *Series of 6 is
+                    recommended.
                   </p>
                   <p>
                     <br />
@@ -278,7 +280,8 @@ export default class Main extends Component {
                   <p>
                     A minimal invasive prodcedure used to renew overall skin
                     tone &amp; texture. It can improve the appearance of sun
-                    damage, fine lines and wrinkles.
+                    damage, fine lines and wrinkles. Includes enzyme peel &amp;
+                    corrective mask.
                   </p>
                   <p>
                     <br />
@@ -301,7 +304,7 @@ export default class Main extends Component {
                 <Card.Text>
                   <p>
                     The removal of vellus hair and exfoliation of the skin.
-                    Hydrating mask included.
+                    Includes enzyme peel &amp; hydrating mask.
                   </p>
                   <p>
                     <br />
@@ -330,8 +333,8 @@ export default class Main extends Component {
                   <p>
                     Topical treatment is optimized to Target a unique skin
                     concern. This non invasive treatment can improve the
-                    appearance of wrinkles, sun damage , burns , acne scars ,
-                    oily skin and loose in elastic skin.
+                    appearance of wrinkles, sun damage, burns, acne &amp; acne
+                    scars, oily skin and loose in elastic skin.
                   </p>
                   <p>$85 - $125</p>
                 </Card.Text>
@@ -396,12 +399,15 @@ export default class Main extends Component {
               <Card.Body>
                 <Card.Title>20% Lactic Peel</Card.Title>
                 <Card.Text>
-                  <p>For extreme lightening due to sundamaged skin</p>
+                  <p>
+                    For extreme lightening due to sundamaged skin. Includes
+                    corrective Hydrating mask.
+                  </p>
                   <p>
                     <br />
                     <br />
                     <br />
-                    $85
+                    $95
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -420,9 +426,10 @@ export default class Main extends Component {
                   <p>
                     A facial treatment that can refresh, restore, and renew your
                     skin using Nanotechnology, to be deeply penetrated to the
-                    dermal layer where collagen stimulation happens.
+                    dermal layer where collagen stimulation happens. *Series of
+                    6 is recommended &amp; sixth is half price.
                   </p>
-                  <p>$100</p>
+                  <p>$125</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
