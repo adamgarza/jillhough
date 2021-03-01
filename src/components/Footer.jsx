@@ -53,13 +53,13 @@ export default class Footer extends Component {
             <h6>Hours</h6>
             <hr />
             <p>
-              Tue. 2pm-8pm
+              Tue. 12pm-8pm
               <br />
-              Wed. 9am-3pm
+              Wed. 10am-5pm
               <br />
-              Fri. 9am-4pm
+              Fri. 10am-5pm
               <br />
-              Sat. pam-3pm
+              Sat. 9am-4pm
             </p>
           </Col>
         </Row>

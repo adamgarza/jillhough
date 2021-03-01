@@ -74,7 +74,7 @@ export default class Main extends Component {
                     {" "}
                     <br />
                     <br />
-                    $45
+                    $55
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -125,7 +125,7 @@ export default class Main extends Component {
                   <p>
                     <br />
                     <br />
-                    $75
+                    $85
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -150,7 +150,7 @@ export default class Main extends Component {
                     downtime. Alpha hydroxy acid recondition skin texture &amp;
                     complexion. Finished with a Manuka honey mask.
                   </p>
-                  <p>$75</p>
+                  <p>$85</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -199,7 +199,7 @@ export default class Main extends Component {
                     Includes a deep cleanse, extractions, acne enzyme mask and
                     blue light therapy. Skin care lesson included.
                   </p>
-                  <p>$45</p>
+                  <p>$55</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -218,7 +218,7 @@ export default class Main extends Component {
                     A customized treatment includes deep pore cleansing, hot
                     towels, exfoliation &amp; a Smoked Bourbon Mask.
                   </p>
-                  <p>$55</p>
+                  <p>$85</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -247,27 +247,6 @@ export default class Main extends Component {
 
           <CardDeck>
             <Card>
-              <Card.Img variant="top" src="assets/img/celluma-light.png" />
-              <Card.Body>
-                <Card.Title>Celluma Light Therapy</Card.Title>
-                <Card.Text>
-                  <p>
-                    Phototherapy can increase circulation, accelerate tissue
-                    repair, increase collagen production, kill acne bacteria,
-                    decrease inflammation &amp; improve texture &amp; skin
-                    clarity. * Series of 10 treatments recommended
-                  </p>
-                  <p>$55</p>
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">
-                  Online booking coming soon.
-                </small>
-              </Card.Footer>
-            </Card>
-
-            <Card>
               <Card.Img variant="top" src="assets/img/microcurrent.png" />
               <Card.Body>
                 <Card.Title>Microcurrent</Card.Title>
@@ -275,12 +254,14 @@ export default class Main extends Component {
                   <p>
                     Often referred to as a natural face lift. This safe &amp;
                     painless facial lifrts &amp; firms to help erase fine lines
-                    and wrinkles while increasing cellular activity.
+                    and wrinkles while increasing cellular activity. Includes
+                    enzyme peel &amp; corrective mask. *Series of 6 is
+                    recommended.
                   </p>
                   <p>
                     <br />
                     <br />
-                    $75
+                    $85
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -299,12 +280,38 @@ export default class Main extends Component {
                   <p>
                     A minimal invasive prodcedure used to renew overall skin
                     tone &amp; texture. It can improve the appearance of sun
-                    damage, fine lines and wrinkles.
+                    damage, fine lines and wrinkles. Includes enzyme peel &amp;
+                    corrective mask.
                   </p>
                   <p>
                     <br />
                     <br />
-                    $65
+                    $85
+                  </p>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
+              </Card.Footer>
+            </Card>
+
+            <Card>
+              <Card.Img variant="top" src="assets/img/dermaplaning.png" />
+              <Card.Body>
+                <Card.Title>Dermaplaning</Card.Title>
+                <Card.Text>
+                  <p>
+                    The removal of vellus hair and exfoliation of the skin.
+                    Includes enzyme peel &amp; hydrating mask.
+                  </p>
+                  <p>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    $75
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -319,21 +326,17 @@ export default class Main extends Component {
           <br />
           <CardDeck>
             <Card>
-              <Card.Img variant="top" src="assets/img/dermaplaning.png" />
+              <Card.Img variant="top" src="assets/img/red-leds.png" />
               <Card.Body>
-                <Card.Title>Dermaplaning</Card.Title>
+                <Card.Title>Lightwave LED Topical Light Infusion</Card.Title>
                 <Card.Text>
                   <p>
-                    The removal of vellus hair and exfoliation of the skin.
-                    Hydrating mask included.
+                    Topical treatment is optimized to Target a unique skin
+                    concern. This non invasive treatment can improve the
+                    appearance of wrinkles, sun damage, burns, acne &amp; acne
+                    scars, oily skin and loose in elastic skin.
                   </p>
-                  <p>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    $65
-                  </p>
+                  <p>$85 - $125</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -343,25 +346,13 @@ export default class Main extends Component {
               </Card.Footer>
             </Card>
 
-            <Card>
-              <Card.Img variant="top" src="assets/img/red-leds.png" />
+            <Card className="invisible">
+              <Card.Img variant="top" />
               <Card.Body>
-                <Card.Title>Lightwave LED Topical Light Infusion</Card.Title>
-                <Card.Text>
-                  <p>
-                    Topical treatment is optimized to Target a unique skin
-                    concern. This non invasive treatment can improve the
-                    appearance of wrinkles, sun damage , burns , acne scars ,
-                    oily skin and loose in elastic skin.
-                  </p>
-                  <p>$125</p>
-                </Card.Text>
+                <Card.Title></Card.Title>
+                <Card.Text></Card.Text>
               </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">
-                  Online booking coming soon.
-                </small>
-              </Card.Footer>
+              <Card.Footer></Card.Footer>
             </Card>
 
             <Card className="invisible">
@@ -392,7 +383,7 @@ export default class Main extends Component {
                   <p>
                     <br />
                     <br />
-                    $85
+                    $95
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -408,12 +399,15 @@ export default class Main extends Component {
               <Card.Body>
                 <Card.Title>20% Lactic Peel</Card.Title>
                 <Card.Text>
-                  <p>For extreme lightening due to sundamaged skin</p>
+                  <p>
+                    For extreme lightening due to sundamaged skin. Includes
+                    corrective Hydrating mask.
+                  </p>
                   <p>
                     <br />
                     <br />
                     <br />
-                    $85
+                    $95
                   </p>
                 </Card.Text>
               </Card.Body>
@@ -432,9 +426,10 @@ export default class Main extends Component {
                   <p>
                     A facial treatment that can refresh, restore, and renew your
                     skin using Nanotechnology, to be deeply penetrated to the
-                    dermal layer where collagen stimulation happens.
+                    dermal layer where collagen stimulation happens. *Series of
+                    6 is recommended &amp; sixth is half price.
                   </p>
-                  <p>$95</p>
+                  <p>$125</p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
