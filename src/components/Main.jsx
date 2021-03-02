@@ -160,72 +160,34 @@ export default class Main extends Component {
               </Card.Footer>
             </Card>
 
-            <Card>
-              <Card.Img
-                variant="top"
-                src="assets/img/hydro-facial.jpg"
-                alt="Hydrodermabrasion Facial image"
-              />
+            <Card className="invisible">
+              <Card.Img variant="top" />
               <Card.Body>
-                <Card.Title>Hydrodermabrasion Facial</Card.Title>
-                <Card.Text>
-                  <p>
-                    The latest &amp; greatest way to remove dead skin cells from
-                    the skin. This facial uses water &amp; oxygen to
-                    effortlessly exfoliate dead skin, while adding hydration.
-                  </p>
-                  <p>
-                    <br />
-                    $85
-                  </p>
-                </Card.Text>
+                <Card.Title></Card.Title>
+                <Card.Text></Card.Text>
               </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">
-                  Online booking coming soon.
-                </small>
-              </Card.Footer>
+              <Card.Footer></Card.Footer>
             </Card>
           </CardDeck>
 
           <br />
           <CardDeck>
-            <Card>
-              <Card.Img variant="top" src="assets/img/teen-facial.png" />
+            <Card className="invisible">
+              <Card.Img variant="top" />
               <Card.Body>
-                <Card.Title>Teen Facial</Card.Title>
-                <Card.Text>
-                  <p>
-                    Includes a deep cleanse, extractions, acne enzyme mask and
-                    blue light therapy. Skin care lesson included.
-                  </p>
-                  <p>$55</p>
-                </Card.Text>
+                <Card.Title></Card.Title>
+                <Card.Text></Card.Text>
               </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">
-                  Online booking coming soon.
-                </small>
-              </Card.Footer>
+              <Card.Footer></Card.Footer>
             </Card>
 
-            <Card>
-              <Card.Img variant="top" src="assets/img/gentlemans-facial.png" />
+            <Card className="invisible">
+              <Card.Img variant="top" />
               <Card.Body>
-                <Card.Title>Gentleman's Facial</Card.Title>
-                <Card.Text>
-                  <p>
-                    A customized treatment includes deep pore cleansing, hot
-                    towels, exfoliation &amp; a Smoked Bourbon Mask.
-                  </p>
-                  <p>$85</p>
-                </Card.Text>
+                <Card.Title></Card.Title>
+                <Card.Text></Card.Text>
               </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">
-                  Online booking coming soon.
-                </small>
-              </Card.Footer>
+              <Card.Footer></Card.Footer>
             </Card>
 
             <Card className="invisible">
@@ -346,6 +308,74 @@ export default class Main extends Component {
               </Card.Footer>
             </Card>
 
+            <Card>
+              <Card.Img
+                variant="top"
+                src="assets/img/hydro-facial.jpg"
+                alt="Hydrodermabrasion Facial image"
+              />
+              <Card.Body>
+                <Card.Title>Hydrodermabrasion Facial</Card.Title>
+                <Card.Text>
+                  <p>
+                    The latest &amp; greatest way to remove dead skin cells from
+                    the skin. This facial uses water &amp; oxygen to
+                    effortlessly exfoliate dead skin, while adding hydration.
+                  </p>
+                  <p>
+                    <br />
+                    $85
+                  </p>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
+              </Card.Footer>
+            </Card>
+
+            <Card>
+              <Card.Img variant="top" src="assets/img/teen-facial.png" />
+              <Card.Body>
+                <Card.Title>Teen Facial</Card.Title>
+                <Card.Text>
+                  <p>
+                    Includes a deep cleanse, extractions, acne enzyme mask and
+                    blue light therapy. Skin care lesson included.
+                  </p>
+                  <p>$55</p>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
+              </Card.Footer>
+            </Card>
+          </CardDeck>
+
+          <br />
+          <CardDeck>
+            <Card>
+              <Card.Img variant="top" src="assets/img/gentlemans-facial.png" />
+              <Card.Body>
+                <Card.Title>Gentleman's Facial</Card.Title>
+                <Card.Text>
+                  <p>
+                    A customized treatment includes deep pore cleansing, hot
+                    towels, exfoliation &amp; a Smoked Bourbon Mask.
+                  </p>
+                  <p>$85</p>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
+              </Card.Footer>
+            </Card>
+
             <Card className="invisible">
               <Card.Img variant="top" />
               <Card.Body>
@@ -401,7 +431,7 @@ export default class Main extends Component {
                 <Card.Text>
                   <p>
                     For extreme lightening due to sundamaged skin. Includes
-                    corrective Hydrating mask.
+                    corrective hydrating mask.
                   </p>
                   <p>
                     <br />
@@ -424,10 +454,10 @@ export default class Main extends Component {
                 <Card.Title>Rezenerate Nanofacial</Card.Title>
                 <Card.Text>
                   <p>
-                    A facial treatment that can refresh, restore, and renew your
-                    skin using Nanotechnology, to be deeply penetrated to the
-                    dermal layer where collagen stimulation happens. *Series of
-                    6 is recommended &amp; sixth is half price.
+                    A facial treatment that can refresh, restore, &amp; renew
+                    your skin using Nanotechnology, to be deeply penetrated to
+                    the dermal layer where collagen stimulation happens. *Series
+                    of 6 is recommended &amp; sixth is half price.
                   </p>
                   <p>$125</p>
                 </Card.Text>
