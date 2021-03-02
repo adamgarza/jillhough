@@ -23,7 +23,7 @@ export default class Footer extends Component {
               <br />
               jill@jillhoughskincare.com
               <br />
-              <a href="https://www.facebook.com/jill.hough.5" target="_blank">
+              <a href="https://www.facebook.com/50dam" target="_blank">
                 <Image
                   className="social-icons"
                   fluid
