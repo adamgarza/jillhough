@@ -386,7 +386,7 @@ export default class Main extends Component {
                     firmness, evens tone &amp; texture, brown spots, as well as,
                     reducing enlarged pores. Overall skin health is improved for
                     several weeks to a month. *Series of 6 is recommended &amp;
-                    sixth is half price.
+                    sixth is half off.
                   </p>
                   <p>$125</p>
                 </Card.Text>
@@ -406,7 +406,7 @@ export default class Main extends Component {
                   <p>
                     Radio Frequency promotes the production of collagen and
                     elastin, diminishes wrinkles, also tightens and firms.
-                    *Series of 6 is recommended &amp; sixth is half price.
+                    *Series of 6 is recommended &amp; sixth is half off.
                   </p>
                   <p>$120</p>
                 </Card.Text>
@@ -481,7 +481,7 @@ export default class Main extends Component {
                     A facial treatment that can refresh, restore, &amp; renew
                     your skin using Nanotechnology, to be deeply penetrated to
                     the dermal layer where collagen stimulation happens. *Series
-                    of 6 is recommended &amp; sixth is half price.
+                    of 6 is recommended &amp; sixth is half off.
                   </p>
                   <p>$125</p>
                 </Card.Text>
