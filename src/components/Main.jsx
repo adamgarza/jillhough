@@ -405,7 +405,7 @@ export default class Main extends Component {
                 <Card.Text>
                   <p>
                     Radio Frequency promotes the production of collagen and
-                    elastin, diminishes wrinkles also tightens and firms.
+                    elastin, diminishes wrinkles, also tightens and firms.
                     *Series of 6 is recommended &amp; sixth is half price.
                   </p>
                   <p>$120</p>
