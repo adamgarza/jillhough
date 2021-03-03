@@ -218,7 +218,7 @@ export default class Main extends Component {
                     painless facial lifrts &amp; firms to help erase fine lines
                     and wrinkles while increasing cellular activity. Includes
                     enzyme peel &amp; corrective mask. *Series of 6 is
-                    recommended.
+                    recommended &amp; sixth is half off.
                   </p>
                   <p>
                     <br />
