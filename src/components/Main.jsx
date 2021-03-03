@@ -376,22 +376,46 @@ export default class Main extends Component {
               </Card.Footer>
             </Card>
 
-            <Card className="invisible">
-              <Card.Img variant="top" />
+            <Card>
+              <Card.Img variant="top" src="assets/img/hydro-facial.png" />
               <Card.Body>
-                <Card.Title></Card.Title>
-                <Card.Text></Card.Text>
+                <Card.Title>Hydro Facial</Card.Title>
+                <Card.Text>
+                  <p>
+                    This treatment reduces fine lines and wrinkles, increases
+                    firmness, evens tone &amp; texture, brown spots, as well as,
+                    reducing enlarged pores. Overall skin health is improved for
+                    several weeks to a month. *Series of 6 is recommended &amp;
+                    sixth is half off.
+                  </p>
+                  <p>$125</p>
+                </Card.Text>
               </Card.Body>
-              <Card.Footer></Card.Footer>
+              <Card.Footer>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
+              </Card.Footer>
             </Card>
 
-            <Card className="invisible">
-              <Card.Img variant="top" />
+            <Card>
+              <Card.Img variant="top" src="assets/img/radio-freq.png" />
               <Card.Body>
-                <Card.Title></Card.Title>
-                <Card.Text></Card.Text>
+                <Card.Title>Radio Frequency</Card.Title>
+                <Card.Text>
+                  <p>
+                    Radio Frequency promotes the production of collagen and
+                    elastin, diminishes wrinkles, also tightens and firms.
+                    *Series of 6 is recommended &amp; sixth is half off.
+                  </p>
+                  <p>$120</p>
+                </Card.Text>
               </Card.Body>
-              <Card.Footer></Card.Footer>
+              <Card.Footer>
+                <small className="text-muted">
+                  Online booking coming soon.
+                </small>
+              </Card.Footer>
             </Card>
           </CardDeck>
         </Container>
@@ -457,7 +481,7 @@ export default class Main extends Component {
                     A facial treatment that can refresh, restore, &amp; renew
                     your skin using Nanotechnology, to be deeply penetrated to
                     the dermal layer where collagen stimulation happens. *Series
-                    of 6 is recommended &amp; sixth is half price.
+                    of 6 is recommended &amp; sixth is half off.
                   </p>
                   <p>$125</p>
                 </Card.Text>
