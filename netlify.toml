@@ -1,4 +1,4 @@
 [[redirects]]
-    from = "https://app.netlify.com/sites/affectionate-goldstine-af353c/"
+    from = "/home"
     to = "https://www.jillsskincareandfacials.com/"
-    status = 301
+    status = 302
